@@ -22,9 +22,10 @@ interface FormType {
   header: string;
   placeholder: string;
   type?: string;
+  name?: string;
 }
 
-export const ContactCard = ({children, id, header, placeholder, type }: FormType): JSX.Element => {
+export const ContactCard = ({children, id, header, placeholder, type, name }: FormType): JSX.Element => {
   const { data } = usePalette(`./static/images/toolImages/${id}.png`);
   const { colorMode } = useColorMode();
 
@@ -54,7 +55,7 @@ export const ContactCard = ({children, id, header, placeholder, type }: FormType
           >
             <FormControl>
               <FormLabel>{header}</FormLabel>
-              <Input type={type} color={useColorModeValue(`gray.600`, `gray.400`)} placeholder={placeholder} minWidth = {{sm: "300px", md: "680px", lg: "676px", xl: "1200px"}} />
+              <Input type={type} color={useColorModeValue(`gray.600`, `gray.400`)} placeholder={placeholder} minWidth = {{sm: "300px", md: "680px", lg: "676px", xl: "1200px"}} name={name}/>
             </FormControl>
           </Flex>
         </Flex>
