@@ -55,6 +55,15 @@ const Languages: LanguageType[] = [
     name: "quizbowl-io",
     description: "Single player website simulator for Quiz Bowl, using W3C's text-to-speech and speech-to-text services.",
     labelColor: "blue",
+  },
+  {
+    id: "reddit-discord-alert",
+    category: ["JavaScript"],
+    link: "https://github.com/eric-lu-VT/Reddit-Discord-Alert",
+    labels: ["Utility"],
+    name: "reddit-discord-alert",
+    description: "Automatically detects new posts made on Reddit, and sends them to Discord.",
+    labelColor: "orange",
   }
 ];
 export default Languages;
