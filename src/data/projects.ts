@@ -30,11 +30,11 @@ const Languages: LanguageType[] = [
     labelColor: "red",
   },
   {
-    id: "reddit-discord-notifier",
+    id: "Reddit-Discord-Notifier",
     category: ["Java"],
     link: "https://github.com/eric-lu-VT/Reddit-Discord-Notifier",
     labels: ["Utility"],
-    name: "reddit-discord-notifier",
+    name: "Reddit-Discord-Notifier",
     description: "Automatically detects new posts made on Reddit, and sends them to Discord.",
     labelColor: "orange",
   },
@@ -66,12 +66,12 @@ const Languages: LanguageType[] = [
     labelColor: "blue",
   },
   {
-    id: "DEPRECATED-reddit-discord-alert",
+    id: "DEPRECATED-Reddit-Discord-Alert",
     category: ["JavaScript"],
     link: "https://github.com/eric-lu-VT/DEPRECATED-Reddit-Discord-Alert",
     labels: ["Utility"],
-    name: "DEPRECATED-reddit-discord-alert",
-    description: "Old version of \"Reddit-Discord-Notifier\"",
+    name: "DEPRECATED-Reddit-Discord-Alert",
+    description: "Old version of \"Reddit-Discord-Notifier\"ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ",
     labelColor: "orange",
   }
 ];
