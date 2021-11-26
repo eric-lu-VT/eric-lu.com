@@ -30,6 +30,15 @@ const Languages: LanguageType[] = [
     labelColor: "red",
   },
   {
+    id: "reddit-discord-notifier",
+    category: ["Java"],
+    link: "https://github.com/eric-lu-VT/Reddit-Discord-Notifier",
+    labels: ["Utility"],
+    name: "reddit-discord-notifier",
+    description: "Automatically detects new posts made on Reddit, and sends them to Discord.",
+    labelColor: "orange",
+  },
+  {
     id: "netcardgames.org",
     category: ["JavaScript"],
     link: "https://github.com/eric-lu-VT/netcardgames.org",
@@ -57,12 +66,12 @@ const Languages: LanguageType[] = [
     labelColor: "blue",
   },
   {
-    id: "reddit-discord-alert",
+    id: "DEPRECATED-reddit-discord-alert",
     category: ["JavaScript"],
-    link: "https://github.com/eric-lu-VT/Reddit-Discord-Alert",
+    link: "https://github.com/eric-lu-VT/DEPRECATED-Reddit-Discord-Alert",
     labels: ["Utility"],
-    name: "reddit-discord-alert",
-    description: "Automatically detects new posts made on Reddit, and sends them to Discord.",
+    name: "DEPRECATED-reddit-discord-alert",
+    description: "Old version of \"Reddit-Discord-Notifier\"",
     labelColor: "orange",
   }
 ];
