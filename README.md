@@ -18,3 +18,6 @@ My personal website, made with TypeScript and ChakraUI.
 
 ## Roadmap
 - Improve mobile display (fix spacing issues, better adjustment to screen size, etc.)
+
+## Credits
+Base of project forked from [this repo](https://github.com/mah51/michael-hall.me) by [mah21](https://github.com/mah51)
