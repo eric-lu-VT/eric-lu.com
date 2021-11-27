@@ -5,7 +5,7 @@ My personal website, made with TypeScript and ChakraUI.
 ## Impressions
 
 ### Home Page
-![img](https://i.imgur.com/lR7cmPN.png)
+![img](https://i.imgur.com/8JY84T1.png)
 
 ### About Page
 ![img](https://i.imgur.com/xJYaHfG.png)
