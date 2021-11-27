@@ -105,6 +105,16 @@ export const SkillsInterestsCard = ({ id, type, label_1, labelColor_1, label_2, 
                   {label_4}
                 </Tag>
               </WrapItem>
+              <WrapItem>
+                <Tag
+                  colorScheme = {labelColor_5}
+                  size="md"
+                  height="20px"
+                  ml={2}
+                >
+                  {label_5}
+                </Tag>
+              </WrapItem>
             </Wrap>
           </Stack>
         </Flex>

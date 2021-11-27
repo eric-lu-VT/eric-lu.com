@@ -22,12 +22,14 @@ interface ExperienceType {
   pos: string;
   badge_1: string;
   badge_2?: string;
-  description1: string;
-  description2: string;
-  description3: string;
+  description1?: string;
+  description2?: string;
+  description3?: string;
+  pos2?: string;
+  description4?: string;
 }
 
-export const ExperienceCard = ({ id, name, years, pos, badge_1, badge_2, description1, description2, description3}: ExperienceType): JSX.Element => {
+export const ExperienceCard = ({ id, name, years, pos, badge_1, badge_2, description1, description2, description3, pos2, description4}: ExperienceType): JSX.Element => {
   const { data } = usePalette(`./static/images/toolImages/${id}.png`);
   const { colorMode } = useColorMode();
 
@@ -63,6 +65,7 @@ export const ExperienceCard = ({ id, name, years, pos, badge_1, badge_2, descrip
         </AspectRatio>
 
         <Flex
+          minWidth = {{md: "676px", lg: "676px"}}
           width="full"
           maxW="full"
           justifyContent="space-between"
@@ -100,6 +103,19 @@ export const ExperienceCard = ({ id, name, years, pos, badge_1, badge_2, descrip
         </Text>
         <Text color={useColorModeValue(`gray.600`, `gray.400`)} whiteSpace="normal" width="full">
           {description3}
+        </Text>
+        <Flex
+          justifyContent="space-between"
+          flexDirection={["column", "row", "row"]}
+        >
+          <Flex
+            flexDirection="column"
+          >
+            <Text color={useColorModeValue("black", "white")} fontStyle="italic">{pos2}</Text>
+          </Flex>
+        </Flex>
+        <Text color={useColorModeValue(`gray.600`, `gray.400`)} whiteSpace="normal" width="100%">
+          {description4}
         </Text>
       </SimpleGrid>
     </Box>

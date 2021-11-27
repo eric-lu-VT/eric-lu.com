@@ -5,31 +5,42 @@ export interface AdditionalExperienceType {
     pos: string;
     badge_1: string;
     badge_2?: string;
-    description1: string;
-    description2: string;
-    description3: string;
+    description1?: string;
+    description2?: string;
+    description3?: string;
+    pos2?: string;
+    description4?: string;
 }
 
 const AdditionalExperiences: AdditionalExperienceType[] = [
     {
-        id:"VTeen 4-H Science Pathways Café",
-        name:"VTeen 4-H Science Pathways Café",
-        years: "September 2018 – June 2021",
-        pos:"Teen Leader",
-        badge_1:"Extracurricular",
-        description1:"● Led Q&A sessions during cafés to help middle and high school students understand different careers in science.",
-        description2:"● Selected guest speakers for cafés, ensuring that a wide range of scientific fields were represented.",
-        description3:"● Collaborated with student leaders to manage expenses, order food and reserve venues to host 100+ students at each event."
+        id: "Foundations in Social Impact",
+        name: "Foundations in Social Impact",
+        years: "Expected, January 2022",
+        pos: "Member",
+        badge_1: "Program",
     },
     {
-        id:"Essex Westford Voices for Education",
-        name:"Essex Westford Voices for Education",
-        years: "September 2017 – June 2019",
-        pos:"Student Representative",
-        badge_1:"Extracurricular",
-        description1:"● Represented student body on a team of board members, school officials, and community members to create a more welcoming, inclusive educational experience for 4,500 K-12 students.",
-        description2:"● Organized and led community discussions to receive feedback on a variety of school policies/issues.",
-        description3:"● Wrote public service announcements to inform residents and stakeholders about progress made in the community."
+        id: "Essex Junction Recreations & Parks",
+        name: "Essex Junction Recreations & Parks",
+        years: "June 2021 – August 2021",
+        pos: "Camp Counselor",
+        badge_1: "Part Time",
+        description1: "● Helped create and facilitate daily arts, physical, and specialty activities for 60+ campers aged 6–11 years old",
+        description2: "● Ensured appropriate enforcement of camp behaviors to ensure enjoyment of daily on-campus and field trip activities",
+        description3: "● Interfaced weekly with directors to implement parent feedback and improve educational quality of camp program"
     },
+    {
+        id:"Essex High School Theatre",
+        name:"Essex High School Theatre",
+        years:"September 2017 – March 2021",
+        pos:"Assistant Student Director",
+        badge_1:"Extracurricular",
+        description1:"● Taught ten pieces of repertoire to cast of 26 members and worked 1-on-1 sessions on teaching intonation and rhythm",
+        description2:"● Organized casting for Spring 2019 musical and advised Student Director on casting selection",
+        description3:"● Assisted in organization of directing team to run vendor services (baked goods, refreshments) at local 4th of July event, fundraising over $1000 to cover production costs",
+        pos2:"Student Writing Director",
+        description4:"● Lead writer on a 30+ page script for use on a student-led production"
+    }
 ]
 export default AdditionalExperiences;
