@@ -8,7 +8,7 @@ My personal website, made with TypeScript and ChakraUI.
 ![img](https://i.imgur.com/lR7cmPN.png)
 
 ### About Page
-![img](https://i.imgur.com/rG9CrYA.png)
+![img](https://i.imgur.com/xJYaHfG.png)
 
 ### Projects Page
 ![img](https://i.imgur.com/iRYQblq.png)
