@@ -25,6 +25,8 @@ const Interests: InterestType[] = [
         labelColor_3: "green",
         label_4: "HTML/CSS",
         labelColor_4: "pink",
+        label_5: "C",
+        labelColor_5: "blue",
     },
     {
         id: "Frameworks:",
@@ -37,6 +39,8 @@ const Interests: InterestType[] = [
         labelColor_3: "gray",
         label_4: "MongoDB",
         labelColor_4: "gray",
+        label_5: "Angular",
+        labelColor_5: "gray",
     },
     {
         id: "Developer Tools:",
