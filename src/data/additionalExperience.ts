@@ -14,13 +14,6 @@ export interface AdditionalExperienceType {
 
 const AdditionalExperiences: AdditionalExperienceType[] = [
     {
-        id: "Foundations in Social Impact",
-        name: "Foundations in Social Impact",
-        years: "Expected, January 2022",
-        pos: "Member",
-        badge_1: "Program",
-    },
-    {
         id: "Essex Junction Recreations & Parks",
         name: "Essex Junction Recreations & Parks",
         years: "June 2021 – August 2021",

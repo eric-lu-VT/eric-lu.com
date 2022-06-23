@@ -13,8 +13,9 @@ import {
 import { usePalette } from "react-palette";
 import { LeadershipActivityType } from "@/data/leadershipActivities";
 
-export const LeadershipActivityCard = ({ id, name, years, pos, badge_1, badge_2, description1, description2, description3, pos2, description4}: LeadershipActivityType): JSX.Element => {
+export const LeadershipActivityCard = ({ id, name, years, badge_1, badge_2, description1, description2, description3, description4 }: LeadershipActivityType): JSX.Element => {
   const { data } = usePalette(`./static/images/toolImages/${id}.png`);
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const { colorMode } = useColorMode();
 
   return (
@@ -62,7 +63,6 @@ export const LeadershipActivityCard = ({ id, name, years, pos, badge_1, badge_2,
             >
             {name}
             </Heading>
-            <Text color={useColorModeValue("black", "white")} fontStyle="italic">{pos}</Text>
           </Flex>
           <Flex
             flexDirection="column"
@@ -92,7 +92,6 @@ export const LeadershipActivityCard = ({ id, name, years, pos, badge_1, badge_2,
           <Flex
             flexDirection="column"
           >
-            <Text color={useColorModeValue("black", "white")} fontStyle="italic">{pos2}</Text>
           </Flex>
         </Flex>
         <Text color={useColorModeValue(`gray.600`, `gray.400`)} whiteSpace="normal" width="100%">
