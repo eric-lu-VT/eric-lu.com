@@ -29,7 +29,7 @@ function About(): React.ReactElement {
           
           <Button
               as="a"
-              href="https://drive.google.com/file/d/1Hg2vgTKFP8ntW5oKDXoxaDgBb3ZP6odw/view?usp=sharing"
+              href="https://drive.google.com/file/d/1YkGcoB_b1pZxGpeYKp3g5bpgIYid_SQ-/view?usp=sharing"
               colorScheme="brand"
               size="lg"
               mt={5}
