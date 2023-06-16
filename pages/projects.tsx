@@ -44,18 +44,19 @@ function Projects(): React.ReactElement {
         <Tabs variant="soft-rounded" colorScheme="blue" align="center" w="100%" mt="10" mb="24">
           <TabList display="flex" flexWrap="wrap">
             <Tab
-              bg={useColorModeValue(`white.100`, `gray.800`)}
+              bg={useColorModeValue(`white`, `gray.800`)}
               color={useColorModeValue(`gray.600`, `gray.500`)}
               _selected={{
-                color: `orange.800`,
-                bg: `orange.100`,
+                color: `blue.800`,
+                bg: `blue.100`,
               }}
               mr={2}
               mt={2}
+              s
             >
               <HStack spacing={1}>
-                <Icon as={SiJava} />
-                <Text>Java</Text>
+                <Icon as={SiTypescript} />
+                <Text>TypeScript</Text>
               </HStack>
             </Tab>
             <Tab
@@ -74,19 +75,18 @@ function Projects(): React.ReactElement {
               </HStack>
             </Tab>
             <Tab
-              bg={useColorModeValue(`white`, `gray.800`)}
+              bg={useColorModeValue(`white.100`, `gray.800`)}
               color={useColorModeValue(`gray.600`, `gray.500`)}
               _selected={{
-                color: `blue.800`,
-                bg: `blue.100`,
+                color: `orange.800`,
+                bg: `orange.100`,
               }}
               mr={2}
               mt={2}
-              s
             >
               <HStack spacing={1}>
-                <Icon as={SiTypescript} />
-                <Text>TypeScript</Text>
+                <Icon as={SiJava} />
+                <Text>Java</Text>
               </HStack>
             </Tab>
             <Tab
@@ -123,13 +123,13 @@ function Projects(): React.ReactElement {
 
           <TabPanels>
             <TabPanel>
-              <ProjectGrid filter="Java" />
+              <ProjectGrid filter="TypeScript" />
             </TabPanel>
             <TabPanel>
               <ProjectGrid filter="JavaScript" />
             </TabPanel>
             <TabPanel>
-              <ProjectGrid filter="TypeScript" />
+              <ProjectGrid filter="Java" />
             </TabPanel>
             <TabPanel>
               <ProjectGrid filter="Python" />

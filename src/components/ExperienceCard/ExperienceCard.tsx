@@ -20,7 +20,7 @@ interface ExperienceType {
   name: string;
   years: string;
   pos: string;
-  badge_1: string;
+  badge_1?: string;
   badge_2?: string;
   description1?: string;
   description2?: string;
@@ -65,9 +65,6 @@ export const ExperienceCard = ({ id, name, years, pos, badge_1, badge_2, descrip
         </AspectRatio>
 
         <Flex
-          minWidth = {{md: "676px", lg: "676px"}}
-          width="full"
-          maxW="full"
           justifyContent="space-between"
           flexDirection={["column", "row", "row"]}
         >
@@ -90,18 +87,18 @@ export const ExperienceCard = ({ id, name, years, pos, badge_1, badge_2, descrip
             {years}
             </Text>
             <Flex justifyContent={["flex-start", "flex-end", "flex-end"]}>
-              <Badge m={1}>{badge_1}</Badge>
+              <Badge m={1} display={badge_1 == null ? "none" : "flex"}>{badge_1}</Badge>
               <Badge m={1} display={badge_2 == null ? "none" : "flex"}>{badge_2}</Badge>
             </Flex>
           </Flex>
         </Flex>
-        <Text color={useColorModeValue(`gray.600`, `gray.400`)} whiteSpace="normal" width="full">
+        <Text color={useColorModeValue(`gray.600`, `gray.400`)} whiteSpace="normal" width="100%">
           {description1}
         </Text>
-        <Text color={useColorModeValue(`gray.600`, `gray.400`)} whiteSpace="normal" width="full">
+        <Text color={useColorModeValue(`gray.600`, `gray.400`)} whiteSpace="normal" width="100%">
           {description2}
         </Text>
-        <Text color={useColorModeValue(`gray.600`, `gray.400`)} whiteSpace="normal" width="full">
+        <Text color={useColorModeValue(`gray.600`, `gray.400`)} whiteSpace="normal" width="100%">
           {description3}
         </Text>
         <Flex
@@ -111,7 +108,8 @@ export const ExperienceCard = ({ id, name, years, pos, badge_1, badge_2, descrip
           <Flex
             flexDirection="column"
           >
-            <Text color={useColorModeValue("black", "white")} fontStyle="italic">{pos2}</Text>
+          {/* <Text color={useColorModeValue("black", "white")} fontStyle="italic">{pos2}</Text> */}
+
           </Flex>
         </Flex>
         <Text color={useColorModeValue(`gray.600`, `gray.400`)} whiteSpace="normal" width="100%">
