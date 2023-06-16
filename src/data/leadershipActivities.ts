@@ -12,25 +12,39 @@ export interface LeadershipActivityType {
 
 const LeadershipActivities: LeadershipActivityType[] = [
     {
-        id:"Bamboozled",
-        name:"Bamboozled",
-        years:"June 2022 – Present",
-        description1:"● Created an Expo Go/React Native mobile app to host a functional implementation of the card game \"Bamboozled\"",
-        description2:"● Implemented socket.io websockets that interface with an in-memory Redis database to allow for live, multiplayer gameplay",
+        id:"MapAbility",
+        name:"MapAbility",
+        years:"April 2023",
+        description1:"● Led team of 4 undergraduate Dartmouth students to develop a React Native / Redux.js mobile app and accompanying MongoDB / Express.js backend that allows individuals with disabilities to view accessible locations",
+        description2:"● Mobile app won “Best Accessibility Hack” award at 2023 HackDartmouth out of 29 teams",
+    },
+    {
+        id: 'Orbit (DALI Lab)',
+        name: 'Orbit (DALI Lab)',
+        years: 'June 2023',
+        description1: '● Developed a React Native / Redux.js social media app and accompanying MongoDB / Express.js backend that analyzes a user’s contacts to curate a feed of users that share mutual contacts in close geographic proximity',
+        description2: '● Design backend graph algorithms to crawl user data and provide accurate friend recommendations and matches',
+    },
+    {
+        id: 'inForest (DALI Lab)',
+        name: 'inForest (DALI Lab)',
+        years: 'June 2022 – August 2022',
+        description1: '● Developed a React Native/Redux.js iPad app and accompanying PostgreSQL / Express.js that allows forestry researchers to input, edit and visualize tree data overlayed on Google Maps API',
+        description2: '● Built an accompanying CRM for forestry researchers to prune census records, import/export data, and set data types; app was used by over 100 Dartmouth Students across Professor Theresa Ong’s agroecology research lab and courses',
     },
     {
         id:"Sadbird",
         name:"Sadbird",
         years:"April 2022",
-        description1:"● Led a team of 4 to develop a Chrome extension that flags negative and emotionally confusing Twitter posts",
-        description2:"● First place project in the “Health & Recovery” category at the 2022 HackDartmouth competition",
+        description1:"● Led team of 4 undergraduate Dartmouth students to develop a Chrome Extension that flags negative and emotionally confusing Twitter posts",
+        description2:"● Chrome extension won first place in the “Health & Recovery” category at 2022 HackDartmouth",
     },
     {
-        id:"Reddit-Discord-Notifier",
-        name:"Reddit-Discord-Notifier",
-        years:"October 2021 – November 2021",
-        description1:"● Developed bot that uses the Reddit API, Discord API, AWS, and MongoDB to detect new posts made on Reddit matching specified queries, before sending them to Discord",
-        description2:"● Implemented multithreading to allow individual servers to run primary script concurrently with one another"
+        id:"Envision Earth (DALI Lab)",
+        name:"Envision Earth (DALI Lab)",
+        years:"January 2022 – December 2022",
+        description1:"● Developed a React Native / Redux.js mobile dashboard and accompanying PostgreSQL / Express.js backend for Holistic Management International (HMI) to help ranchers transition to paperless record keeping of their cattle herd and environmental characteristics",
+        description2:"● Implemented automatic syncing of data between offline iPad local storage and online database"
     },
 ]
 export default LeadershipActivities;

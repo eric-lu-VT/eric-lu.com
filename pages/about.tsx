@@ -10,7 +10,7 @@ import SkillsInterestsCard from "@/components/SkillsInterestsCard"
 import education, { EducationType } from "../src/data/education"
 import awards, { AwardType } from "../src/data/awards"
 import workExperiences, { WorkExperienceType } from "../src/data/workExperience"
-import additionalExperiences, { AdditionalExperienceType } from "../src/data/additionalExperience"
+// import additionalExperiences, { AdditionalExperienceType } from "../src/data/additionalExperience"
 import LeadershipActivities, { LeadershipActivityType } from "../src/data/leadershipActivities"
 import Interests, { InterestType } from "../src/data/skillsInterests"
 
@@ -29,7 +29,7 @@ function About(): React.ReactElement {
           
           <Button
               as="a"
-              href="https://drive.google.com/file/d/1-dM09QsPFJ_4ofQunhhAwTGToXnU1Da2/view?usp=sharing"
+              href="https://drive.google.com/file/d/1YkGcoB_b1pZxGpeYKp3g5bpgIYid_SQ-/view?usp=sharing"
               colorScheme="brand"
               size="lg"
               mt={5}
@@ -62,8 +62,8 @@ function About(): React.ReactElement {
           <Heading letterSpacing="tight" mt={[2, 4, 6, 8]} mb={5} size="lg" fontWeight={700} as="h2">
             Relevant Experience
           </Heading>
-          <Flex direction="column" justifyContent = "flex-start" alignItems = "center" maxWidth = {{sm: "320px", md: "768px", lg: "960px", xl: "1200px"}}>
-            <SimpleGrid columns={1} spacingY={5} minChildWidth={{sm: "100%", md: "100%", lg: "100%", xl: "100%"}} maxHeight = {{sm: "720px", md: "800px", lg: "800px", xl: "800px"}}>
+          <Flex direction="column" justifyContent = "flex-start" alignItems = "center" maxWidth = {{sm: "320px", md: "768px", lg: "700px", xl: "1200px"}} mb="15">
+            <SimpleGrid spacingY={8} minChildWidth={{sm: "100%", md: "100%", lg: "100%", xl: "100%"}}>
               {workExperiences.map((act: WorkExperienceType, index: number) => (
                 <ExperienceCard {...act} key={index.toString()} />
               ))}
@@ -73,7 +73,7 @@ function About(): React.ReactElement {
           <Heading letterSpacing="tight" mt={[2, 4, 6, 8]} mb={5} size="lg" fontWeight={700} as="h2">
             Featured Projects
           </Heading>
-          <Flex direction="column" justifyContent = "flex-start" alignItems = "flex-start" maxWidth = {{sm: "320px", md: "700px", lg: "700px", xl: "1200px"}}>
+          <Flex direction="column" justifyContent = "flex-start" alignItems = "center" maxWidth = {{sm: "320px", md: "768px", lg: "700px", xl: "1200px"}} mb="15">
             <SimpleGrid spacingY={8} minChildWidth={{sm: "100%", md: "100%", lg: "100%", xl: "100%"}}>
               {LeadershipActivities.map((act: LeadershipActivityType, index: number) => (
                 <LeadershipActivityCard {...act} key={index.toString()} />
@@ -81,7 +81,7 @@ function About(): React.ReactElement {
             </SimpleGrid>
           </Flex>
 
-          <Heading letterSpacing="tight" mt={[2, 4, 6, 8]} mb={5} size="lg" fontWeight={700} as="h2">
+          {/* <Heading letterSpacing="tight" mt={[2, 4, 6, 8]} mb={5} size="lg" fontWeight={700} as="h2">
             Additional Experience
           </Heading>
           <Flex direction="column" justifyContent = "flex-start" alignItems = "flex-start" maxWidth = {{sm: "320px", md: "700px", lg: "700px", xl: "1200px"}}>
@@ -90,7 +90,7 @@ function About(): React.ReactElement {
                 <ExperienceCard {...act} key={index.toString()} />
               ))}
             </SimpleGrid>
-          </Flex>
+          </Flex> */}
 
           <Heading letterSpacing="tight" mt={[2, 4, 6, 8]} mb={5} size="lg" fontWeight={700} as="h2">
             Technical Skills

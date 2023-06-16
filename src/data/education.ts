@@ -16,13 +16,13 @@ export interface EducationType {
         schoolURL:"https://home.dartmouth.edu/",
         school: "Dartmouth College",
         years: "2021-Present",
-        gpa:"GPA 4.00/4.00", 
+        gpa:"GPA 3.96/4.00", 
         major: "Bachelor of Arts: Computer Science",
         location: "Hanover, NH"
     },
     {
         id:"Essex High School", 
-        picURL: "https://www.ewsd.org/cms/lib/VT02217845/Centricity/Template/GlobalAssets/images///Logos/EHS_Hornet.png",    
+        picURL: "https://cmsv2-assets.apptegy.net/uploads/15510/logo/16411/b1955e2a-d1ce-4026-b5dd-865afb838502__1_.png",    
         schoolURL:"https://www.ewsd.org/cms/lib/VT02217845/Centricity/Domain/395/20-21%20EHS%20Profile.pdf", 
         school:"Essex High School", 
         years:"2017-2021", 
