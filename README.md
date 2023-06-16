@@ -8,10 +8,10 @@ My personal website, made with TypeScript and ChakraUI.
 ![img](https://i.imgur.com/8JY84T1.png)
 
 ### About Page
-![img](https://i.imgur.com/xJYaHfG.png)
+![img](https://i.imgur.com/qefs7Nj.png)
 
 ### Projects Page
-![img](https://i.imgur.com/iRYQblq.png)
+![img](https://i.imgur.com/t593HW6.png)
 
 ### Contact Page
 ![img](https://i.imgur.com/xYxZvVj.png)
